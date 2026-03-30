@@ -1,21 +1,37 @@
+# App name — used internally by Flutter and on the device
 name: mindra
+
+# Short description of what the app does
 description: A flashcard quiz app for smarter learning.
+
+# Prevents accidentally publishing this app to pub.dev
 publish_to: 'none'
+
+# App version — format is version+build (e.g. 1.0.0+1)
+# Increment this before releasing a new build
 version: 1.0.0+1
 
 environment:
+  # Minimum Dart SDK version required to run this app
   sdk: '>=3.1.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+
+  # Saves and loads deck data locally on the device
   shared_preferences: ^2.2.2
+
+  # Renders SVG image files (used for the app logo)
   flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # Enforces Flutter's recommended code style and lint rules
   flutter_lints: ^3.0.1
 
 flutter:
+  # Gives access to Material icons (e.g. Icons.add, Icons.arrow_back)
   uses-material-design: true
