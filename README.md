@@ -6,7 +6,9 @@ A clean, minimal flashcard app built with Flutter for smarter learning. Create c
 
 ## Screenshots
 
-> _Add screenshots here once the app is running on your device._
+| Home | Quiz | Add Deck |
+|------|------|----------|
+| ![Home](screenshots/home.png) | ![Quiz](screenshots/quiz.png) | ![Add Deck](screenshots/add_deck.png) |
 
 ---
 
